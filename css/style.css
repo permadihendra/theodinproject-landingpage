@@ -1,5 +1,6 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Roboto;
+  margin: 0;
 }
 
 .container {
@@ -95,19 +96,128 @@ body {
 
 .content-one {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardbox {
+  display: flex;
+  flex-direction: row;
+  padding-left: 164px;
+  padding-right: 164px;
+  padding-bottom: 64px;
+  padding-top: 12px;
+  gap: 12px;
+}
+
+.cardbox .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.cardbox .card p {
+  font-weight: lighter;
+}
+
+.content-one h1 {
+  color: #1f2937;
+  font-size: 36px;
+}
+
+.cardbox img {
+  border: 2px solid #3882f6;
+  border-radius: 8px;
 }
 
 .content-two {
   display: flex;
+  flex-direction: column;
   background-color: #e5e7eb;
+  padding-left: 164px;
+  padding-right: 164px;
+  padding-bottom: 64px;
+  padding-top: 64px;
+}
+
+.content-two p {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+}
+
+.content-two .author {
+  text-align: right;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: bold;
+  color: #1f2937;
 }
 
 .content-three {
   display: flex;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  padding-left: 100px;
+  padding-right: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-three .calltoactionbox {
+  display: flex;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background-color: #3882f6;
+  border-radius: 8px;
+  gap: 84px;
+}
+.content-three .calltoactionbox .message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content-three .calltoactionbox .message h2 {
+  color: #f9faf8;
+  margin-bottom: 0;
+}
+
+.content-three .calltoactionbox .message p {
+  color: #f9faf8;
+  margin-top: 0;
+}
+
+.content-three .calltoactionbox .buttonbox {
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-three .calltoactionbox .buttonbox button {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  font-weight: bold;
+  padding: 3px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 6px;
+  border: 2px solid #e5e7eb;
 }
 
 .footer {
   display: flex;
   background-color: #1f2937;
   color: #f9faf8;
+  justify-items: center;
+  justify-content: center;
 }
