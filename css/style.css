@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
+.content-one {
+  display: flex;
+}
+
+.content-two {
+  display: flex;
+  background-color: #e5e7eb;
+}
+
+.content-three {
+  display: flex;
+}
+
+.footer {
+  display: flex;
+  background-color: #1f2937;
+  color: #f9faf8;
+}
