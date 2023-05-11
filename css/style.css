@@ -50,6 +50,7 @@ body {
 .slider {
   display: flex;
   gap: 16px;
+  margin-top: 60px;
 }
 
 .sliderimage {
